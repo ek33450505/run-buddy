@@ -236,6 +236,12 @@ section {
   color: #fce138;
 }
 
+#reach-out {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
 .contact-info iframe {
   width: 400px;
   height: 400px;
@@ -265,6 +271,17 @@ section {
 
 .contact-info a {
   color: #fce138;
+}
+
+.column {
+  flex: 1 50%;
+  max-width: 50%;
+  box-sizing: border-box;
+}
+
+#reach-out .section-title {
+  display: block;
+  width: 100%;
 }
 
 /* REACH OUT STYLES END */
